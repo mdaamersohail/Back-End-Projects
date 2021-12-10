@@ -1,0 +1,20 @@
+show dbs
+use carbrands
+db
+ db.myowned.insertMany([{
+     "name":"BMW",
+     "status":"waiting for payement confirmation"
+ },
+ {
+     "name":"Tesla",
+     "status":"owned"
+ },
+ {
+     "name":"Ferrari",
+     "status":"waiting for documentations"
+ },
+ {
+     "name":"Volvo",
+     "status":"owned"
+ },
+ ])
